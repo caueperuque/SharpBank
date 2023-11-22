@@ -1,13 +1,13 @@
 using System;
-using Trybank.Lib;
+using SharpBank.Lib;
 
-namespace Trybank.App;
+namespace SharpBank.App;
 
 class Program
 {
     static void Main(string[] args)
     {
-        TrybankLib bank = new();
+        SharpBankLib bank = new();
 
         try
         {
